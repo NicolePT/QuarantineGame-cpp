@@ -267,7 +267,6 @@ namespace Quarantine {
 		}
 		if (nivel3->pasarSiguienteNivel()) {
 			ganaste->Show();
-			this->Close();
 		}
 	}
 	private: Void fmrJuego_KeyDown(Object^ sender, KeyEventArgs^ e) {
